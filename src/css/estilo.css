@@ -1,0 +1,140 @@
+body{
+    background-color:rgb(49, 49, 49);
+}
+
+.botones{
+    width: 11.1%;
+    height: 11.1%;
+    background-color:rgb(56, 224, 246);
+    border-radius: 10px;
+    color:rgb(56, 224, 246);
+    font-size: 1.5em;
+}
+
+#iddiv1{
+    margin-top: 3em;
+    margin-right: 4em;
+    width: 65%;
+    height: 90%;
+    display: none;
+    position: fixed;
+    right: 0;
+    
+}
+
+#startt{
+    font-family: "Dyuthi", monospace;
+    font-size: 20em;
+    background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    height: 100%;
+    z-index: 50;
+}
+
+#iddiv2{
+    background: linear-gradient(0deg, #4240d8, white);    
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+
+#click {
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 20;
+}
+
+#clickP {
+
+    margin: 2em;
+    font-family: "Dyuthi", monospace;
+    font-size: 3em;
+    color: black;
+}
+
+#tiempo {
+    display: none;
+    position: fixed;
+    color: rgb(255,0,0);
+    background-color: rgb(65, 64, 64);
+    width: 25%;
+    font-size: 150%;
+    padding: 1em;   
+    margin: 1em;
+    left: 0; 
+}
+
+#banderas {
+    display: none;
+    position: fixed;
+    color: rgb(255,0,0);
+    background-color: rgb(65, 64, 64);
+    width: 25%;
+    font-size: 150%;
+    padding: 1em;   
+    margin-top: 5em;
+    margin-left: 1em ;
+    left: 0; 
+}
+#finJuego{
+    display: block;
+    position: fixed;
+    color: rgb(255,0,0);
+    width: 25%;
+    font-size: 150%;
+    padding: 1em;   
+    margin-top: 8em;
+    margin-left: 1em ;
+    left: 0;
+
+}
+#banderita{
+    float: left;
+}
+#pbanderas{
+    float: left;
+}
+@font-face {
+    font-family: infected;
+    src: url(../fonts/INFECTED.ttf);
+  }
+  
+
+#mensaje{
+    display: none;
+    transform: rotate(-20deg); 
+    font-size: 10rem;
+    font-family: infected;
+    color: rgb(224, 221, 14) ;
+    transition: all 2s;
+}
+
+#mensaje:hover{
+    color:red;
+}
+
+#restart{
+    display: block;
+    font-size: 2rem;
+    margin-top: 4em;
+    font-family: infected;
+    width: 10em;
+    height: 5em;
+    color: purple;
+    background: linear-gradient(-120deg, rgb(0,0,0), rgb(255, 255, 255));
+    border-radius: 1em;
+
+}
+
+#restart:hover{
+    background: linear-gradient(120deg, rgb(0,0,0), rgb(255, 255, 255));
+    cursor: pointer;
+    
+}
+
